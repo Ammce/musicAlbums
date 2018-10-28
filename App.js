@@ -26,7 +26,7 @@ export default class App extends Component {
   render() {
     console.log(this.state);
     return (
-      <View>
+      <View style={{ flex: 1 }}>
         <Header headerText={"Albums"} />
         <AlbumList />
       </View>
